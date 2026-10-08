@@ -35,7 +35,7 @@ Include only sections that help this project. Typical priorities are:
 6. known limitations, security considerations, migration notes, or troubleshooting when they affect real use;
 7. testing and contribution guidance when this repository supports contributors.
 
-Do not add empty boilerplate sections. For a new README or a substantial restructure, read [references/patterns.md](references/patterns.md) and adapt its patterns rather than copying every heading.
+Do not add empty boilerplate sections. When creating a new README or substantially restructuring one, read [references/readme-examples.md](references/readme-examples.md) for adaptable examples of the intended shape and tone.
 
 ## Include useful code examples
 
@@ -58,7 +58,8 @@ Examples should demonstrate supported behavior, not merely show type names. Pref
 - Put identifiers, commands, paths, configuration keys, routes, and literal values in backticks.
 - Use tables for genuine comparisons or mappings, not decoration.
 - Use bullets for parallel facts and numbered lists for ordered work.
-- Use GitHub admonitions sparingly: `NOTE` for context, `TIP` for an actionable shortcut or workaround, and `WARNING` for a meaningful risk.
+- Use a small amount of purposeful color when it improves scanning. Status is a good candidate: prefer consistent badges with readable text and restrained, conventional colors. Keep the status understandable without relying on color alone, and avoid decorative badge walls.
+- Use GitHub admonitions only when the content benefits from being set apart: `NOTE` for necessary context, `TIP` for an actionable shortcut or workaround, and `WARNING` for a meaningful risk. Do not add callouts merely for visual variety.
 - Put lengthy implementation evidence, queries, payloads, or diagnostics in a `<details>` block when readers need access but not immediate visibility.
 - State limitations plainly: describe the boundary, when it matters, the observable effect, and the workaround if one exists.
 
