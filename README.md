@@ -12,17 +12,22 @@ Skills can cover different subjects, from design and development to documentatio
 
 ## Available skills
 
-| Skill | Purpose |
-| --- | --- |
-| [Funico Websites](funico-websites/SKILL.md) | Create or redesign Funico websites and web applications with shared visual guidelines, architecture, and project structure. |
+| Skill | Purpose | Status |
+| --- | --- | --- |
+| [Funico README](funico-readme/SKILL.md) | Create or revise practical, repository-grounded README files for Funico software projects. | Ready to use |
+| [Funico Websites](funico-websites/SKILL.md) | Create or redesign Funico websites and web applications with shared visual guidelines, architecture, and project structure. | Ready to use |
+| [Funico Mailings](funico-mailings/SKILL.md) | Reserved for guidance on Funico mailings. The workflow has not been documented yet. | Not ready |
 
 ## Using a skill
 
 Choose the skill that matches your task and point your assistant to its `SKILL.md`. Include the project context, desired outcome, and any specific constraints so the instructions can be applied to your situation.
 
-For example:
+For example, this prompt applies the README skill to a project:
 
-> Use the skill at `funico-websites/SKILL.md` to guide this project. Follow its relevant instructions and references, adapting them to the requirements below.
+```text
+Use the skill at `funico-readme/SKILL.md` to update this project's README.
+Document the verified setup and normal usage path, and preserve correct existing content.
+```
 
 Each skill defines its own scope. Check its instructions and supporting resources before applying it to a new project.
 
