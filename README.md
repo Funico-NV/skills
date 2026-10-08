@@ -14,9 +14,9 @@ Skills can cover different subjects, from design and development to documentatio
 
 | Skill | Purpose | Status |
 | --- | --- | --- |
-| [Funico README](funico-readme/SKILL.md) | Create or revise practical, repository-grounded README files for Funico software projects. | Ready to use |
-| [Funico Websites](funico-websites/SKILL.md) | Create or redesign Funico websites and web applications with shared visual guidelines, architecture, and project structure. | Ready to use |
-| [Funico Mailings](funico-mailings/SKILL.md) | Reserved for guidance on Funico mailings. The workflow has not been documented yet. | Not ready |
+| [Funico README](funico-readme/SKILL.md) | Create or revise practical, repository-grounded README files for Funico software projects. | ![Ready to use](https://img.shields.io/badge/status-ready%20to%20use-2ea44f) |
+| [Funico Websites](funico-websites/SKILL.md) | Create or redesign Funico websites and web applications with shared visual guidelines, architecture, and project structure. | ![Ready to use](https://img.shields.io/badge/status-ready%20to%20use-2ea44f) |
+| [Funico Mailings](funico-mailings/SKILL.md) | Reserved for guidance on Funico mailings. The workflow has not been documented yet. | ![Not ready](https://img.shields.io/badge/status-not%20ready-d97706) |
 
 ## Using a skill
 
