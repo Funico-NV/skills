@@ -16,6 +16,7 @@ Skills can cover different subjects, from design and development to documentatio
 | --- | --- | --- |
 | [Funico Architecture](funico-archtecture/SKILL.md) | Apply the Swift architecture and naming conventions from NVMNovem/skills to Funico application code. | ![Ready to use](https://img.shields.io/badge/status-ready%20to%20use-2ea44f) |
 | [Funico README](funico-readme/SKILL.md) | Create or revise practical, repository-grounded README files for Funico software projects. | ![Ready to use](https://img.shields.io/badge/status-ready%20to%20use-2ea44f) |
+| [Funico Skills](funico-skills/SKILL.md) | Create or update reusable Funico skills using guidance from NVMNovem/skills, including references and README usage prompts. | ![Not ready](https://img.shields.io/badge/status-not%20ready-d97706) |
 | [Funico Websites](funico-websites/SKILL.md) | Create or redesign Funico websites and web applications with shared visual guidelines, architecture, and project structure. | ![Ready to use](https://img.shields.io/badge/status-ready%20to%20use-2ea44f) |
 | [Funico Mailings](funico-mailings/SKILL.md) | Reserved for guidance on Funico mailings. The workflow has not been documented yet. | ![Not ready](https://img.shields.io/badge/status-not%20ready-d97706) |
 
@@ -36,6 +37,14 @@ For Swift architecture work, use:
 Use the skill at `funico-archtecture/SKILL.md` to write or review this project's Swift application code.
 Read the linked Novem Architecture skill and its relevant references, and apply them to the requested task.
 Task: [Describe what to build, change, or review.]
+```
+
+For creating or updating reusable skills, use:
+
+```text
+Use the skill at `funico-skills/SKILL.md` to create or update a skill in this repository.
+Read the linked Novem Skills skill and its relevant references, and apply them using Funico naming and repository links.
+Task: [Describe the skill to create or update.]
 ```
 
 Each skill defines its own scope. Check its instructions and supporting resources before applying it to a new project.
