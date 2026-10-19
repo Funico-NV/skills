@@ -71,7 +71,7 @@ This skill refers to starter guidance and is not ready for general use yet. Use 
 Read and follow the Funico Skills skill:
 https://github.com/Funico-NV/skills/blob/main/funico-skills/SKILL.md
 
-Also read the linked Novem Skills skill and the reference files relevant to the task, resolving their paths relative to the owning skill's folder on GitHub. Apply the guidance using Funico naming and repository links, and keep the README listing and alphabetical Usage sections in sync.
+Also read the linked Novem Skills skill and the reference files relevant to the task, resolving their paths relative to the owning skill's folder on GitHub. Apply the guidance using Funico naming and repository links. Apply "Keep the repository README in sync" to the root README in Funico-NV/skills, keeping its listing and alphabetical Usage sections in sync.
 
 Task: [Describe the skill to create or update and the conventions it should capture.]
 ```
