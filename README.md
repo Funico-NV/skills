@@ -15,39 +15,79 @@ Skills can cover different subjects, from design and development to documentatio
 | Skill | Purpose | Status |
 | --- | --- | --- |
 | [Funico Architecture](funico-archtecture/SKILL.md) | Apply the Swift architecture and naming conventions from NVMNovem/skills to Funico application code. | ![Ready to use](https://img.shields.io/badge/status-ready%20to%20use-2ea44f) |
+| [Funico Mailings](funico-mailings/SKILL.md) | Reserved for guidance on Funico mailings. The workflow has not been documented yet. | ![Not ready](https://img.shields.io/badge/status-not%20ready-d97706) |
 | [Funico README](funico-readme/SKILL.md) | Create or revise practical, repository-grounded README files for Funico software projects. | ![Ready to use](https://img.shields.io/badge/status-ready%20to%20use-2ea44f) |
 | [Funico Skills](funico-skills/SKILL.md) | Create or update reusable Funico skills using guidance from NVMNovem/skills, including references and README usage prompts. | ![Not ready](https://img.shields.io/badge/status-not%20ready-d97706) |
 | [Funico Websites](funico-websites/SKILL.md) | Create or redesign Funico websites and web applications with shared visual guidelines, architecture, and project structure. | ![Ready to use](https://img.shields.io/badge/status-ready%20to%20use-2ea44f) |
-| [Funico Mailings](funico-mailings/SKILL.md) | Reserved for guidance on Funico mailings. The workflow has not been documented yet. | ![Not ready](https://img.shields.io/badge/status-not%20ready-d97706) |
 
-## Using a skill
+## Usage
 
-Choose the skill that matches your task and point your assistant to its `SKILL.md`. Include the project context, desired outcome, and any specific constraints so the instructions can be applied to your situation.
+Choose a skill below and copy its prompt into your AI assistant. Replace the bracketed task with your desired outcome, project context, and any specific constraints. Each skill has its own heading so you can link directly to its usage section on GitHub.
 
-For example, this prompt applies the README skill to a project:
+### Architecture
 
-```text
-Use the skill at `funico-readme/SKILL.md` to update this project's README.
-Document the verified setup and normal usage path, and preserve correct existing content.
-```
-
-For Swift architecture work, use:
+Use this prompt when writing or reviewing Swift application code with the Novem architecture and naming conventions used by Funico.
 
 ```text
-Use the skill at `funico-archtecture/SKILL.md` to write or review this project's Swift application code.
-Read the linked Novem Architecture skill and its relevant references, and apply them to the requested task.
-Task: [Describe what to build, change, or review.]
+Read and follow the Funico Architecture skill:
+https://github.com/Funico-NV/skills/blob/main/funico-archtecture/SKILL.md
+
+Also read the linked Novem Architecture skill and the reference files relevant to the task, resolving their paths relative to the owning skill's folder on GitHub. Apply the Swift architecture and naming conventions to the code you write or review, preserving Funico names and persisted identifiers. Ask for clarification when conflicting project patterns leave the intended convention unclear.
+
+Task: [Describe what to build, change, or review in this project.]
 ```
 
-For creating or updating reusable skills, use:
+### Mailings
+
+This skill is a placeholder and is not ready for use. Use this prompt to document its workflow before applying it to mailing tasks.
 
 ```text
-Use the skill at `funico-skills/SKILL.md` to create or update a skill in this repository.
-Read the linked Novem Skills skill and its relevant references, and apply them using Funico naming and repository links.
-Task: [Describe the skill to create or update.]
+Inspect the Funico Mailings skill placeholder:
+https://github.com/Funico-NV/skills/blob/main/funico-mailings/SKILL.md
+
+Create useful skill instructions from the supplied Funico mailing requirements and established project examples. Link any supporting references from the skill, and keep its README listing and usage prompt in sync. Identify missing requirements rather than inventing mailing conventions.
+
+Task: [Describe the mailing workflow and conventions this skill should capture.]
 ```
 
-Each skill defines its own scope. Check its instructions and supporting resources before applying it to a new project.
+### README
+
+Use this prompt when creating or updating a project's README with Funico's practical documentation style.
+
+```text
+Read and follow the Funico README skill:
+https://github.com/Funico-NV/skills/blob/main/funico-readme/SKILL.md
+
+Also read the linked reference files relevant to the task, resolving their paths relative to the skill's folder on GitHub. Ground the README in the repository's actual setup and usage, and preserve correct existing content.
+
+Task: [Describe the project and what to create or update in its README.]
+```
+
+### Skills
+
+This skill refers to starter guidance and is not ready for general use yet. Use this prompt to try it when creating or updating a skill in this repository.
+
+```text
+Read and follow the Funico Skills skill:
+https://github.com/Funico-NV/skills/blob/main/funico-skills/SKILL.md
+
+Also read the linked Novem Skills skill and the reference files relevant to the task, resolving their paths relative to the owning skill's folder on GitHub. Apply the guidance using Funico naming and repository links, and keep the README listing and alphabetical Usage sections in sync.
+
+Task: [Describe the skill to create or update and the conventions it should capture.]
+```
+
+### Websites
+
+Use this prompt when creating or substantially redesigning a Funico website or web application.
+
+```text
+Read and follow the Funico Websites skill:
+https://github.com/Funico-NV/skills/blob/main/funico-websites/SKILL.md
+
+Also read the linked reference files and examples relevant to the task, resolving their paths relative to the skill's folder on GitHub. Apply the Funico visual guidelines, website icon treatment, architecture, and project structure. Verify the result at desktop and mobile sizes.
+
+Task: [Describe the website or application to create or redesign and its constraints.]
+```
 
 ## Repository structure
 
@@ -68,4 +108,4 @@ skills/
 
 Create a folder with a descriptive name and add a `SKILL.md` that clearly states the skill's purpose, when it applies, and the steps or standards to follow. Keep the main instructions focused and place detailed supporting material in the appropriate subfolders.
 
-Add the skill to the table above so others can discover it. Keep instructions actionable, examples relevant, and references up to date as the collection grows.
+Add the skill to the table above and give it a subsection under Usage with a copyable prompt that links to its `SKILL.md` on GitHub. Keep instructions actionable, examples relevant, and references up to date as the collection grows.
