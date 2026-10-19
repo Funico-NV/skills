@@ -14,6 +14,7 @@ Skills can cover different subjects, from design and development to documentatio
 
 | Skill | Purpose | Status |
 | --- | --- | --- |
+| [Funico Architecture](funico-archtecture/SKILL.md) | Apply the Swift architecture and naming conventions from NVMNovem/skills to Funico application code. | ![Ready to use](https://img.shields.io/badge/status-ready%20to%20use-2ea44f) |
 | [Funico README](funico-readme/SKILL.md) | Create or revise practical, repository-grounded README files for Funico software projects. | ![Ready to use](https://img.shields.io/badge/status-ready%20to%20use-2ea44f) |
 | [Funico Websites](funico-websites/SKILL.md) | Create or redesign Funico websites and web applications with shared visual guidelines, architecture, and project structure. | ![Ready to use](https://img.shields.io/badge/status-ready%20to%20use-2ea44f) |
 | [Funico Mailings](funico-mailings/SKILL.md) | Reserved for guidance on Funico mailings. The workflow has not been documented yet. | ![Not ready](https://img.shields.io/badge/status-not%20ready-d97706) |
@@ -27,6 +28,14 @@ For example, this prompt applies the README skill to a project:
 ```text
 Use the skill at `funico-readme/SKILL.md` to update this project's README.
 Document the verified setup and normal usage path, and preserve correct existing content.
+```
+
+For Swift architecture work, use:
+
+```text
+Use the skill at `funico-archtecture/SKILL.md` to write or review this project's Swift application code.
+Read the linked Novem Architecture skill and its relevant references, and apply them to the requested task.
+Task: [Describe what to build, change, or review.]
 ```
 
 Each skill defines its own scope. Check its instructions and supporting resources before applying it to a new project.
