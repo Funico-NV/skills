@@ -25,7 +25,7 @@ Build pages from sections. A page should read as a deliberate product surface, n
 Recommended page shape:
 
 1. Header or app shell with required icon treatment.
-2. Primary page context: title, status, tabs, or short task summary.
+2. Primary page context: title, status, local tabs, or short task summary.
 3. Main work area: metrics, forms, data views, or content sections.
 4. Supporting content: tables, details, secondary actions.
 5. Footer only when it adds real value.
@@ -39,6 +39,8 @@ Create the header as a reusable system:
 - `PrimaryNavigation` for major areas.
 - `UtilityNavigation` for secondary actions.
 - `SiteHeader` or equivalent wrapper.
+
+Compose the brand lockup, primary navigation, and optional utilities in one compact desktop header row. Primary navigation belongs in the header; do not repeat it above the page content.
 
 The exact names can change by project, but keep these responsibilities distinct.
 

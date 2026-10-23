@@ -84,7 +84,7 @@ Use this prompt when creating or substantially redesigning a Funico website or w
 Read and follow the Funico Websites skill:
 https://github.com/Funico-NV/skills/blob/main/funico-websites/SKILL.md
 
-Also read the linked reference files and examples relevant to the task, resolving their paths relative to the skill's folder on GitHub. Apply the Funico visual guidelines, website icon treatment, architecture, and project structure. Verify the result at desktop and mobile sizes.
+Also read the linked reference files and examples relevant to the task, resolving their paths relative to the skill's folder on GitHub. Apply the Funico visual guidelines and current design reference, including the compact white menu bar, inline navigation, and website icon treatment, along with the architecture and project structure. Verify the result at desktop and mobile sizes.
 
 Task: [Describe the website or application to create or redesign and its constraints.]
 ```

@@ -1,6 +1,6 @@
 # Abstract Operational Dashboard Example
 
-This example demonstrates the preferred density and hierarchy without referencing any real codebase.
+This example demonstrates the preferred density and hierarchy without referencing any real codebase. `SiteHeader` contains primary navigation, as shown in the [header example](header-with-icon.md).
 
 ```swift
 struct DashboardPage: View {
@@ -8,13 +8,6 @@ struct DashboardPage: View {
     var body: some View {
         PageShell {
             SiteHeader()
-
-            Tabs {
-                Tab("Optimum", isSelected: true)
-                Tab("Batch analysis")
-                Tab("Scenarios")
-                Tab("Data")
-            }
 
             Grid(columns: 4, spacing: 12) {
                 MetricCard(label: "Material use", value: "86.7%")

@@ -13,7 +13,7 @@ The result should feel calm, precise, operational, and carefully branded. Prefer
 
 Read only the references that are relevant to the current task:
 
-- For visual direction, colors, header rules, and icon placement, read [references/design-system.md](references/design-system.md).
+- For visual direction, colors, header rules, and icon placement, read [references/design-system.md](references/design-system.md) and inspect the [current design reference](assets/design-reference.png).
 - For application and page architecture, read [references/architecture.md](references/architecture.md).
 - For folder layout and naming conventions, read [references/project-structure.md](references/project-structure.md).
 - For acceptable abstract example style, inspect files in [examples](examples).
@@ -24,8 +24,8 @@ All new Funico websites must:
 
 - Build the design around `#006387` as the base tint.
 - Use `#AABCC6` as the secondary tint.
-- Include a required website icon as a prominent, polished part of the header or first viewport.
-- Improve on the provided reference header: the header must feel intentional, balanced, and branded rather than a plain utility strip.
+- Include a polished website icon in a compact header lockup beside the product name.
+- Follow the current reference header: a single white menu bar with the icon and product name on the left, inline navigation, an active underline, and quiet utilities on the right.
 - Preserve the reference's calm operational feel: light workspace, clear panels, restrained borders, compact navigation, strong information hierarchy.
 - Avoid generic template aesthetics, oversized marketing composition, decorative blobs, heavy gradients, and excessive card nesting.
 - Keep example code abstract. Examples may show declarative component API style, but must not mention real Funico repositories, package names, internal APIs, or actual implementation details.
